@@ -1,0 +1,71 @@
+body{
+
+    background-color: black;
+}
+
+
+.parent{
+
+    width:350px;
+    height:490px;
+    background-color: rgb(58, 68, 82);
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+.parent .rectangle{
+
+    width:315px;
+    height:80px;
+    background-color: rgb(57, 64, 71);
+    transform:translate(15px, 12px);
+    border-width: 2px;
+    border-style: solid;
+    border-color:black rgb(109, 110, 111) rgb(109, 110, 111) black;
+    border-radius: 1px;
+}
+
+.parent .flex{
+
+    width:320px;
+    height:370px;
+    background-color: rgb(57, 67, 81);
+    transform: translate(15px, 25px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.parent .flex button{
+
+    width:65px;
+    height:65px;
+    border-radius: 8px;
+    background-color: rgb(57, 67, 81);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 7px 10px 10px 3px black, 7px 10px 10px 3px black, -7px 10px 10px 10px black; 
+    line-height:65px;
+    border-width: 0px;
+}
+
+.parent .flex button:last-child{
+
+    width:145px;
+}
+
+.parent .flex button:hover{
+
+    color:white;
+    background-color: rgb(53, 184, 189);
+    box-shadow: 7px 10px 10px 10px white, -7px 10px 10px 10px White; 
+}
+
+.parent .flex button:last-child:hover{
+
+    color:rgb(46, 160, 164);
+    background-color: rgb(51, 57, 68);
+    box-shadow: 7px 10px 10px 10px rgb(46, 160, 164), -7px 10px 10px 10px rgb(46, 160, 164);
+}
